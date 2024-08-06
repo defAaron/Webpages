@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>type="text/javascript"</script>
+
+        <title>Identifying Social Engineering Attacks</title>
+
+        <style>
+
+            body {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                line-height: 1.6;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                background-color: white;
+                color: black;
+                font-size: larger;
+            }
+
+            header, footer {
+                background-image: url(phishing_background.jpeg);
+                text-align: center;
+                padding: 10px 0;
+                color:#ffffff;
+                font-size: x-large;
+            }
+
+            main {
+                display: flex;
+                flex: 1;
+            }
+
+            article {
+                padding: 10px;
+                margin-left: 5%;
+                width: 80%;
+            }
+
+            section {
+                margin-bottom: 40px;
+            }
+
+            @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            aside {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            article {
+                margin-left: 0;
+            }
+            }
+            
+            nav {
+                text-align: center;
+                font-size: x-large;
+                background-color:rgb(172, 206, 251);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            aside {
+                background-color: #e1eff7;
+                padding: 10px;
+                text-align:left;
+                flex: 1;
+                color: black;
+            }
+            
+            table, th, td {
+                border: 1px solid;
+                padding: 15px;
+            }
+
+            h4 {
+                font-size: 3em;
+                text-align: left;
+            }
+
+            h5 {
+                text-align:left;
+                margin-left: 86%;
+                background-color: rgb(0, 0, 0);
+            }
+            
+
+            ul {
+                list-style-type: none;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <header> 
+
+            <h1><u>Identifying Social Engineering Attacks</u></h1>
+
+        </header>
+        
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="CaseStudies.html">Case Studies</a> |
+            <a href="cybersecurity.html">Cybersecurity</a> |
+            <a href="reflection.html">Reflection</a> 
+        </nav>
+
+        <hr>
+
+        <main>
+
+            <article>
+
+                <section> <!--this is the introduction for the reader-->
+                        Have you ever gotten an extremely suspicious email, phone text, or call, and do not know if it is not a scam? 
+                        After reading this webpage, you will become an expert at detecting them and other forms of what is called social engineering: 
+                        a tactic used by cybercriminals to trick people into giving away personal information. 
+                        Here, you'll learn how to spot the signs of social engineering attacks, understand the various techniques used by scammers, 
+                        and get tips on protecting yourself and your information. Stay aware, stay safe, and fight the phish!
+                </section>
+
+                <hr>
+
+                <section>
+
+                    <h2>How to identify each type of social engineering:</h2>
+
+                    <table> <!--the content is formatted into a table for visual appeal and for simplicity: the reader can read the information easily-->
+
+                        <tr>
+                            <th>Phishing</th>
+                            <th>Smishing</th>
+                            <th>Vishing</th>
+                            <th>Pharming</th>
+                        </tr>
+
+                        <tr>
+                            <td>Check the sender's email address carefully for slight misspellings or domain changes</td>
+                            <td>Be suspicious of unsolicited messages asking for personal information or offering something that seems too good to be true</td>
+                            <td>Be cautious of numbers that appear to be from legitimate organizations but request sensitive information</td>
+                            <td>Always check the URL for slight misspellings or unusual characters
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Look for poor grammar and spelling mistakes</td>
+                            <td>Avoid clicking on links in text messages from unknown numbers</td>
+                            <td>Legitimate organizations typically don't ask for personal information over the phone
+                            </td>
+                            <td>Look for HTTPS and a padlock symbol in the browser's address bar (secure connection)</td>
+                        </tr>
+
+                        <tr>
+                            <td>Hover over links to see the actual URL before clicking</td>
+                            <td>Contact the supposed sender through official channels to verify the legitimacy of the message</td>
+                            <td>Hang up and call the official number of the institution to verify the call's authenticity</td>
+                            <td>Use security software that provides DNS protection</td>
+                            </tr>
+
+                        </table> 
+
+                </section>
+
+                <hr>
+
+                <section> <!--section 3 (for the game/quiz)-->
+
+                    <p>After learning about social engineering and how to identify the different types, you should now be a master at detecting fake emails, messages, and phone calls.</p>
+                    <p>To test your skill, take this quiz!</p>
+                   
+                </section>
+
+                <div class="quiz-container">
+
+                    <h1>Cybersecurity Quiz</h1>
+
+                    <form id="quizForm">
+                        
+                            <h2>Question 1</h2>
+                            <img src="question1.png" alt="Question 1">
+                            <div>
+                                <label>What should you do if you get this email? Select all correct answers:</label>
+                                <div>
+                                    <input type="checkbox" id="q1a1" name="q1" value="Ignore it.">
+                                    <label for="q1a1">Ignore it.</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q1a2" name="q1" value="Report it">
+                                    <label for="q1a2">Report it</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q1a3" name="q1" value="Open the link">
+                                    <label for="q1a3">Open the link</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q1a4" name="q1" value="Call the actual organization and verify">
+                                    <label for="q1a4">Call the actual organization and verify</label>
+                                </div>
+                            </div>
+
+                            <h2>Question 2</h2>
+                            <img src="question2.png" alt="Question 2">
+                            <div>
+                                <label>What should you do if you get this email? Select all correct answers:</label>
+                                <div>
+                                    <input type="checkbox" id="q2a1" name="q2" value="Ignore it.">
+                                    <label for="q2a1">Ignore it.</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q2a2" name="q2" value="Report it">
+                                    <label for="q2a2">Report it</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q2a3" name="q2" value="Open the link">
+                                    <label for="q2a3">Open the link</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q2a4" name="q2" value="Call the actual organization and verify">
+                                    <label for="q2a4">Call the actual organization and verify</label>
+                                </div>
+
+                                <h2>Question 3</h2>
+                            <img src="question3.png" alt="Question 3">
+                            <div>
+                                <label>What should you do if you get this email? Select all correct answers:</label>
+                                <div>
+                                    <input type="checkbox" id="q3a1" name="q3" value="Ignore it.">
+                                    <label for="q3a1">Ignore it.</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q3a2" name="q3" value="Report it">
+                                    <label for="q3a2">Report it</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q3a3" name="q3" value="Send the money">
+                                    <label for="q3a3">Send the money</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="q3a4" name="q3" value="Email the alternative email">
+                                    <label for="q3a4">Email the alternative email</label>
+                                </div>
+                        
+                            <h2>Question 4</h2>
+                            <div>
+                                <label>What is the type of social engineering for the following? Choose the correct answer:
+                                   <br><br>
+                                    Dear Linda Ristevski,
+                                    <br>
+                                    We hope this message finds you well. 
+                                    <br>
+                                    Our records indicate that there have been several unsuccessful login attempts on your online banking account. To ensure the security of your account, we require you to verify your account information immediately.
+                                    <br>
+                                    Please click the link below to verify your information and secure your account:
+                                    <br>
+                                    Verify Your Account
+                                    <br>
+                                    If you do not verify your information within 24 hours, your account will be temporarily suspended for your protection.
+                                    <br>
+                                    Thank you for your prompt attention to this matter.
+                                    <br>
+                                    Sincerely,
+                                    <br>
+                                    Customer Support Team
+                                    <br>
+                                    SecureBank
+                                    <br><br>
+                                </label>
+
+                                <div>
+                                    <input type="radio" id="q4a1" name="q4" value="Phishing">
+                                    <label for="q4a1">Phishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q4a2" name="q4" value="vishing">
+                                    <label for="q4a2">Vishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q4a3" name="q4" value="Smishing">
+                                    <label for="q4a3">Smishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q4a4" name="q4" value="Pharming">
+                                    <label for="q4a4">Pharming</label>
+                                </div>
+                            </div>
+
+                            <h2>Question 5</h2>
+
+                            <div>
+                                <label>What is the type of social engineering for the following? Choose the correct answer:
+                                <br><br>
+                                URGENT: Dear Linda Ristevski, your SecureBank account has been temporarily locked due to suspicious activity. Please verify your identity to restore access: http://securebank.com/verify
+                                <br><br>
+                                </label>
+                                <div>
+                                    <input type="radio" id="q5a1" name="q5" value="Phishing">
+                                    <label for="q5a1">Phishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q5a2" name="q5" value="vishing">
+                                    <label for="q5a2">Vishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q5a3" name="q5" value="Smishing">
+                                    <label for="q5a3">Smishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q5a4" name="q5" value="Pharming">
+                                    <label for="q5a4">Pharming</label>
+                                </div>
+                            </div>
+
+                            <h2>Question 6</h2>
+
+                            <div>
+                                <label>What is the type of social engineering for the following? Choose the correct answer:
+                                <br><br>
+                                Linda Ristevski decides to visit her bank's website by typing "securebank.com" into her web browser. Unbeknownst to her, her computer has been infected with malware that redirects her to a fake website that looks identical to SecureBank’s official site.
+                                <br><br>
+                                
+                                </label>
+
+                                <div>
+                                    <input type="radio" id="q6a1" name="q6" value="Phishing">
+                                    <label for="q6a1">Phishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q6a2" name="q6" value="vishing">
+                                    <label for="q6a2">Vishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q6a3" name="q6" value="Smishing">
+                                    <label for="q6a3">Smishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q6a4" name="q6" value="Pharming">
+                                    <label for="q6a4">Pharming</label>
+                                </div>
+                            </div>
+
+                            <h2>Question 7</h2>
+                            <div>
+                                <label>What is the type of social engineering for the following? Choose the correct answer:
+                                    <br><br>
+                                    Linda: Hello?
+                                    <br>
+                                    Scammer: Hello, is this Linda Ristevski?
+                                    <br>
+                                    Linda: Yes, this is her.
+                                    <br>
+                                    Scammer: Hi Linda, this is Mike from SecureBank`s Fraud Prevention Department. We're calling because we`ve detected some suspicious activity on your account. Can you confirm if you recently attempted a large purchase of $1,200 in another state?
+                                    <br>
+                                    Linda: No, I didn`t make any such purchase.
+                                    <br>
+                                    Scammer: Thank you for confirming. To secure your account and prevent any unauthorized transactions, we need to verify some details. Can you please confirm your account number and the last four digits of your Social Security Number?
+                                    <br>
+                                    Linda: Um, okay, my account number is 12345678, and the last four of my Social are 9876.
+                                    <br>
+                                    Scammer: Thank you, Linda. For added security, we`ll send you a verification code via text. Please provide the code once you receive it.
+                                    <br>
+                                    Linda receives a text message with a code.
+                                    <br>
+                                    Linda: I got the code. It`s 543210.
+                                    <br>
+                                    Scammer: Perfect. We`ve secured your account for now. You might want to change your online banking password as an extra precaution. If you have any other concerns, please call our customer service line. Thank you for your prompt attention, Linda.
+                                    <br>
+                                    Linda: Thank you.
+                                    <br>
+                                    Scammer: Have a great day.
+                                    <br><br>
+                                </label>
+                                <div>
+                                    <input type="radio" id="q7a1" name="q7" value="Phishing">
+                                    <label for="q7a1">Phishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q7a2" name="q7" value="Vishing">
+                                    <label for="q7a2">Vishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q7a3" name="q7" value="Smishing">
+                                    <label for="q7a3">Smishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q7a4" name="q7" value="Pharming">
+                                    <label for="q7a4">Pharming</label>
+                                </div>
+                            </div>
+
+                            <h2>Question 8</h2>
+                            <div>
+                                <label>What is the type of social engineering for the following? Choose the correct answer:
+                                    <br><br>
+                                    Linda Ristevski gets a call from her family friend. It is Brad Pitt on the phone who is asking to borrow $10,000. Fortunately, Linda Ristevski knows how to check if it is real. She meets up with Brad Pitt in real life and Brad Pitt confirms it was actually him that was calling. Linda Ristevski transfers the money and all goes well.
+                                    <br><br>
+                                </label>
+                                <div>
+                                    <input type="radio" id="q8a1" name="q8" value="Phishing">
+                                    <label for="q8a1">Phishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q8a2" name="q8" value="vishing">
+                                    <label for="q8a2">Vishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q8a3" name="q8" value="Smishing">
+                                    <label for="q8a3">Smishing</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q8a4" name="q8" value="Pharming">
+                                    <label for="q8a4">Pharming</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="q8a5" name="q8" value="None">
+                                    <label for="q8a5">None</label>
+                                </div>
+                            </div>
+                        
+                        <button type="button" onclick="submitQuiz()">Submit</button>
+                    
+                    </form>
+
+                    <div id="result" class="result"></div>
+                </div>
+
+                <script src="cybersecurity.js"></script>
+
+            </article>
+
+            <aside> <!--fun facts I found while researching about social engineering-->
+
+                <img src="phishing.png" alt="laptop with envelope that contains important information getting phished">
+    
+                <h2>Did you know?</h2>
+    
+                <p>According to <a href="https://www.verizon.com/business/resources/reports/dbir/">Verizon</a>, approximately 30% of phishing emails are opened by targeted individuals, 
+                and around 12% of those individuals click on malicious links or attachments. Around 12% of those individuals click on malicious links or attachments. </p>
+                
+                <p>Learn more at: </p>
+ 
+                <ul> <!--other links that the reader might want to explore to learn more-->
+                    <li><a href="https://cybersecurityontario.ca/mod/page/view.php?id=219&lang=en#phishing-link">Cybersecurity Ontario</a></li>
+                    <li><a href="https://blog.usecure.io/the-most-common-examples-of-a-phishing-email">Usecure</a></li>
+                    <li><a href="https://caniphish.com/free-phishing-test/phishing-website-templates">Caniphish</a></li>
+                    <li><a href="https://www.verizon.com/business/resources/reports/dbir/">Verizon</a></li>
+                    <li><a href="https://www.webroot.com/ca/en/resources/tips-articles/what-is-social-engineering">Webroot</a></li>
+                </ul>
+    
+            </aside>
+
+        </main>
+
+        <footer>
+
+            <ul>
+
+                <li><a href="https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks">CISA</a></li>
+                <li><a href="https://www.ftc.gov/news-events/topics/identity-theft/phishing-scams">FTC</a></li>
+                <li><a href="https://www.sans.org/security-awareness-training/">SANS</a></li>
+                <li><a href="https://cybersecurityontario.ca/mod/page/view.php?id=219&lang=en#phishing-link">Cybersecurity</a></li>
+            
+            </ul>
+            
+            </h5>
+
+        </footer>
+
+    </body>
+    
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Dino Strings and Arrays with CSS</title>
+
+        <style>
+            /* ~~~~~~~ Navigation Menu ~~~~~~~ */
+            /* nav has button-like links to each page */
+            nav ul {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            nav ul li a {
+                display: block;
+                width: 8em;
+                margin: 0 5px;
+                padding: .5em 1em;
+                text-decoration: none;
+                text-align: center;
+                letter-spacing: .1em;
+                color: #fff;
+                background-color: rgb(190, 190, 190);
+                border: 2px solid rgb(175,175,175);
+                border-radius: 6px;
+                text-shadow: #666 .1em .1em .1em;
+                box-shadow: 0 4px 2px rgba(0,0,0,.5);
+                position: relative;
+                top: 0px;
+                transition:  
+                    background-color 0.2s,
+                    border-color 0.2s, 
+                    top 0.1s, 
+                    box-shadow 0.1s; 
+            } /* Hover colours - button portfolio nav */
+            nav ul li a:hover, a:focus { 	
+                background-color: #b8ccd5; 	/* light blue */
+                border-color: #6c9eb7;     /* darker blue */
+            } 
+            /* click the link pushes button down */
+            nav ul li a:active {
+                top: 3px;
+                box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            }
+
+            /* ~~~~~~~Rotating images~~~~~~~ */
+            /* Can be used to showcase portfolio pages in a visual manner */
+            main{
+                height: 20%;
+            }
+            .dino ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            .dino li {
+                float: left;
+                margin-right: 10px;
+            }
+            .dino li:last-of-type {
+                margin-right: 0;
+            }
+            .dino a {
+                display: block;
+            }
+            .dino img {
+                width: 200px;
+                height: 150px;
+                box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+                transition: transform .3s ease-in-out; 
+            }
+
+            .dino a:hover img {
+                box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+            }
+            .dino a:hover #img1, a:focus #img1  {
+                transform: scale(1.5) rotate(-3deg);
+            }
+            .dino a:hover #img2, a:focus #img2  {
+                transform: scale(1.5) rotate(5deg);
+            }
+            .dino a:hover #img3, a:focus #img3  {
+                transform: scale(1.5) rotate(-7deg);
+            }
+            .dino a:hover #img4, a:focus #img4  {
+                transform: scale(1.5) rotate(2deg);
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Dinosaurs</h1>
+            <h2>Roaming the Halls of MMHS</h2>
+
+            <!-- Navigation Menu links look like buttons -->
+            <!-- CSS colour changes on hover and focus -->
+            <!-- Activating the link appears to press the button-->
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Case Studies</a></li>
+                    <li><a href="">Cybersecurity</a></li>
+                    <li><a href="">Reflection</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+
+        <main class="dino">
+            
+          <ul>
+            <!-- the href attribute can be filled in with links to your portfolio pages -->
+            <!-- id's, such as id="img1" are used to TARGET specific links: good use of id -->
+            <li><a href=""><img src="coelophysis.jpg" id="img1" alt=""></a></li>
+            <li><a href=""><img src="triceratops.jpg" id="img2" alt=""></a></li>
+            <li><a href=""><img src="stegosaurus.jpg" id="img3" alt=""></a></li>
+            <li><a href=""><img src="tyrannosaurus.jpg" id="img4"alt=""></a></li>
+          </ul>
+
+        </main>
+
+        <script type="text/javascript">
+
+            
+
+        </script>
+
+    </body>
+
+</html>

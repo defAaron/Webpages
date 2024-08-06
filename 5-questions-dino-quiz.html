@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinosaur Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .quiz-container {
+            max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question img {
+            max-width: 100%;
+            height: auto;
+        }
+        .result {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Dinosaur Quiz</h1>
+        <form id="quizForm">
+            <article class="question">
+                <h2>Question 1</h2>
+                <img src="brontosaurus.jpg" alt="Brontosaurus">
+                <div>
+                    <label for="q1">Type your answer:</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+            </article>
+            <article class="question">
+                <h2>Question 2</h2>
+                <img src="coelophysis.jpg" alt="Coelophysis">
+                <div>
+                    <label>Choose the correct answer:</label>
+                    <div>
+                        <input type="radio" id="q2a1" name="q2" value="Brontosaurus">
+                        <label for="q2a1">Brontosaurus</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q2a2" name="q2" value="Coelophysis">
+                        <label for="q2a2">Coelophysis</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q2a3" name="q2" value="Pterodactyl">
+                        <label for="q2a3">Pterodactyl</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q2a4" name="q2" value="Stegosaurus">
+                        <label for="q2a4">Stegosaurus</label>
+                    </div>
+                </div>
+            </article>
+            <article class="question">
+                <h2>Question 3</h2>
+                <img src="pterodactyl.jpg" alt="Pterodactyl">
+                <div>
+                    <label>Select all correct answers:</label>
+                    <div>
+                        <input type="checkbox" id="q3a1" name="q3" value="Brontosaurus">
+                        <label for="q3a1">Brontosaurus</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="q3a2" name="q3" value="Coelophysis">
+                        <label for="q3a2">Coelophysis</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="q3a3" name="q3" value="Pterodactyl">
+                        <label for="q3a3">Pterodactyl</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="q3a4" name="q3" value="Stegosaurus">
+                        <label for="q3a4">Stegosaurus</label>
+                    </div>
+                </div>
+            </article>
+            <article class="question">
+                <h2>Question 4</h2>
+                <img src="stegosaurus.jpg" alt="Stegosaurus">
+                <div>
+                    <label for="q4">Choose the correct answer:</label>
+                    <select id="q4" name="q4">
+                        <option value="Brontosaurus">Brontosaurus</option>
+                        <option value="Coelophysis">Coelophysis</option>
+                        <option value="Pterodactyl">Pterodactyl</option>
+                        <option value="Stegosaurus">Stegosaurus</option>
+                    </select>
+                </div>
+            </article>
+            <article class="question">
+                <h2>Question 5</h2>
+                <img src="triceratops.jpg" alt="Triceratops">
+                <div>
+                    <label>Choose the correct answer:</label>
+                    <div>
+                        <input type="radio" id="q5a1" name="q5" value="Triceratops">
+                        <label for="q5a1">Triceratops</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="q5a2" name="q5" value="Tyrannosaurus">
+                        <label for="q5a2">Tyrannosaurus</label>
+                    </div>
+                </div>
+            </article>
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="5-questions-dino-quiz.js"></script>
+</body>
+</html>

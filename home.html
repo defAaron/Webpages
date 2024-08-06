@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Aaron - Computers Portfolio</title>
+        
+        <style>
+        
+            body {
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    line-height: 1.6;
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                    background-color: white;
+                    color: black;
+                    font-size: larger;
+                }
+
+                header, footer {
+                    background-image: url(header_background.jpeg);
+                    text-align: center;
+                    padding: 10px 0;
+                    color:#ffffff;
+                    font-size:xx-large;
+                }
+
+                main {
+                    display: flex;
+                    flex: 1;
+                }
+
+                article {
+                    padding: 10px;
+                    margin-left: 5%;
+                    width: 80%;
+                }
+
+                section {
+                    margin-bottom: 40px;
+                }
+
+                @media (max-width: 768px) {
+                main {
+                    flex-direction: column;
+                }
+                aside {
+                    width: 100%;
+                }
+                article {
+                    margin-left: 0;
+                }
+                }
+
+                aside {
+                    background-color: #e1eff7;
+                    padding: 10px;
+                    text-align:left;
+                    flex: 1;
+                    color: black;
+                }
+
+                nav {
+                    text-align: center;
+                    font-size: x-large;
+                    background-color:rgb(172, 206, 251);
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+                .image-container {
+                    display: inline-block;
+                    position: relative;
+                    width: 300px; 
+                    height: 200px; 
+                    background-color: black; 
+                }
+
+                .hover-image {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    transition: opacity 0.5s ease-in-out;
+                }
+
+                .image-container:hover .hover-image {
+                    opacity: 1;
+                }
+
+            </style>
+    
+        </head>
+
+    <body>
+
+        <header>
+            
+            <h1>Aaron - Computers Portfolio</h1>
+        
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="CaseStudies.html">Case Studies</a> |
+            <a href="cybersecurity.html">Cybersecurity</a> |
+            <a href="reflection.html">Reflection</a> 
+        </nav>
+
+        <main>
+        
+            <article>
+                
+                <section>
+
+                    <h2>About Me</h2>
+
+                    <p>Hello! I'm Aaron Dutta, a student at Milliken Mills High School with a passion for many different activities. As a Level 10 RCM pianist, I've won several awards, showing my dedication and love for playing the piano.
+
+                        <br>
+                        <br>
+
+                        In addition to music, I hold a black belt in karate, which has taught me discipline and perseverance. I also love swimming and enjoy teaching kids how to swim, sharing my excitement for the sport with them.
+                       
+                        <br>
+                        <br>
+
+                        My interest in technology is strong, especially in robotics. I was thrilled to win the gold medal at the 2022 Skills Ontario Lego Robotics Competition, representing York Region.
+                        
+                        <br>
+                        <br>
+
+                        I also enjoy coding, always looking for new ways to solve problems and create cool projects, experienced in Python, C++, 
+                       
+                        <br>
+                        <br>
+
+                        When I'm not busy with these activities, I like to read, exploring new worlds and gaining knowledge from books.
+                        
+                        <br>
+                        <br>
+
+                        With my mix of musical talent, athletic skills, technological curiosity, and love for reading, I am always eager to learn and take on new challenges.</p>
+
+                </section>
+            
+                <section>
+                    <p></p>
+                </section>
+
+                <section>
+
+                    <img src="karate.jpeg" alt="me getting my black belt">
+                    <img src="piano.png" alt="me playing on a grand piano">
+                    <img src="code_img.png" alt="my python coding with pygame">
+
+                </section>
+                
+            </article>
+
+            <aside>
+                <div class="image-container">
+                <img src="image_aaron.png" alt="grinning emoji with sunglasses and thumbs up" class="hover-image">
+                </div>
+                <p>Hover to reveal a picture of me!</p>
+
+            </aside>
+
+        </main>
+
+        <footer>
+
+            <p>Go to my Case Studies page to learn about my progress through this course!</p>
+
+        </footer>
+
+    </body>
+
+</html>
