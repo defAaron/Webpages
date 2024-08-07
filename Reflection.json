@@ -1,0 +1,561 @@
+{
+    "initial": {
+        "diagrams": [
+            {
+                "id": "1718110884688",
+                "items": [
+                    {
+                        "id": "1718110884715",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 16777215,
+                            "TEXT_DISABLED": true
+                        },
+                        "renderer": "Browser",
+                        "transform": {
+                            "x": 500,
+                            "y": 534.5,
+                            "w": 1000,
+                            "h": 931,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718110884865",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Reflection (Header)",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 498,
+                            "y": 134,
+                            "w": 1004,
+                            "h": 132,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718110884994",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 510.5,
+                            "y": 414.5,
+                            "w": 947,
+                            "h": 393,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    }
+                ],
+                "rootIds": [
+                    "1718110884715",
+                    "1718110884865",
+                    "1718110884994"
+                ]
+            }
+        ],
+        "diagramIds": [
+            "1718110884688"
+        ],
+        "id": "66d903b0-dda9-f2d3-aa4b-b312623919c0",
+        "size": {
+            "x": 1000,
+            "y": 1000
+        }
+    },
+    "actions": [
+        {
+            "type": "items/addShape",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111219717,
+                "id": "1718110885218",
+                "renderer": "Paragraph",
+                "position": {
+                    "x": 83.79998779296875,
+                    "y": 320.20000076293945
+                }
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111220754,
+                "oldBounds": {
+                    "x": 183,
+                    "y": 390,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 146,
+                    "y": 297,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111223259,
+                "oldBounds": {
+                    "x": 146,
+                    "y": 297,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 504,
+                    "y": 412,
+                    "w": 916,
+                    "h": 370,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111227832,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei."
+                },
+                "force": false,
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "editor/size",
+            "payload": {
+                "width": 1000,
+                "height": 800
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111255045,
+                "oldBounds": {
+                    "x": 504,
+                    "y": 412,
+                    "w": 916,
+                    "h": 370,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 500,
+                    "y": 444,
+                    "w": 916,
+                    "h": 370,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111315025,
+                "oldBounds": {
+                    "x": 500,
+                    "y": 534.5,
+                    "w": 1000,
+                    "h": 931,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 500,
+                    "y": 533.5,
+                    "w": 1000,
+                    "h": 931,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110884715"
+                ]
+            }
+        },
+        {
+            "type": "items/addShape",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111322246,
+                "id": "1718110885454",
+                "renderer": "Image",
+                "position": {
+                    "x": 185.79998397827148,
+                    "y": 685.4000091552734
+                }
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111332209,
+                "oldBounds": {
+                    "x": 510.5,
+                    "y": 414.5,
+                    "w": 947,
+                    "h": 393,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 500.5,
+                    "y": 444.5,
+                    "w": 947,
+                    "h": 393,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110884994"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111334903,
+                "oldBounds": {
+                    "x": 235,
+                    "y": 735,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 598,
+                    "y": 725,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885454"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111337755,
+                "oldBounds": {
+                    "x": 500,
+                    "y": 444,
+                    "w": 916,
+                    "h": 370,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 291,
+                    "y": 444,
+                    "w": 498,
+                    "h": 370,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111339428,
+                "oldBounds": {
+                    "x": 291,
+                    "y": 444,
+                    "w": 498,
+                    "h": 370,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 334,
+                    "y": 444,
+                    "w": 584,
+                    "h": 370,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111342237,
+                "oldBounds": {
+                    "x": 500.5,
+                    "y": 444.5,
+                    "w": 947,
+                    "h": 393,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 500.5,
+                    "y": 519.5,
+                    "w": 947,
+                    "h": 543,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110884994"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111349248,
+                "oldBounds": {
+                    "x": 334,
+                    "y": 444,
+                    "w": 584,
+                    "h": 370,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 334,
+                    "y": 522.5,
+                    "w": 584,
+                    "h": 527,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718111353038,
+                "oldBounds": {
+                    "x": 500.5,
+                    "y": 519.5,
+                    "w": 947,
+                    "h": 543,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 347,
+                    "y": 519.5,
+                    "w": 640,
+                    "h": 543,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110884994"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718112009255,
+                "oldBounds": {
+                    "x": 598,
+                    "y": 725,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 753,
+                    "y": 328,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885454"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718112012033,
+                "oldBounds": {
+                    "x": 753,
+                    "y": 328,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 844.5,
+                    "y": 460,
+                    "w": 283,
+                    "h": 364,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885454"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718112013584,
+                "oldBounds": {
+                    "x": 844.5,
+                    "y": 460,
+                    "w": 283,
+                    "h": 364,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 836.5,
+                    "y": 430,
+                    "w": 283,
+                    "h": 364,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885454"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718112017800,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii rebum postea eam ex. Et mei laoreet officiis, summo sensibus id mei.Lorem ipsum dolor sit amet, alii "
+                },
+                "force": false,
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718112023179,
+                "oldBounds": {
+                    "x": 334,
+                    "y": 522.5,
+                    "w": 584,
+                    "h": 527,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 352,
+                    "y": 413.5,
+                    "w": 620,
+                    "h": 309,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110885218"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718112025653,
+                "oldBounds": {
+                    "x": 347,
+                    "y": 519.5,
+                    "w": 640,
+                    "h": 543,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 347,
+                    "y": 427.5,
+                    "w": 640,
+                    "h": 359,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110884994"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718110884688",
+                "timestamp": 1718112037941,
+                "oldBounds": {
+                    "x": 500,
+                    "y": 533.5,
+                    "w": 1000,
+                    "h": 931,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 500,
+                    "y": 434,
+                    "w": 1000,
+                    "h": 732,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718110884715"
+                ]
+            }
+        }
+    ]
+}

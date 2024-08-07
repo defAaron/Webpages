@@ -1,0 +1,834 @@
+{
+    "initial": {
+        "diagrams": [
+            {
+                "id": "1718072331696",
+                "items": [
+                    {
+                        "id": "1718072331739",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 16777215,
+                            "TEXT_DISABLED": true
+                        },
+                        "renderer": "Browser",
+                        "transform": {
+                            "x": 490,
+                            "y": 534.5,
+                            "w": 980,
+                            "h": 931,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072331989",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Aaron - Computers Portfolio (Header)",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 500,
+                            "y": 125.5,
+                            "w": 1000,
+                            "h": 113,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072332284",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 16777215,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_DISABLED": true,
+                            "ASPECT_RATIO": true,
+                            "URL": ""
+                        },
+                        "renderer": "Image",
+                        "transform": {
+                            "x": 821,
+                            "y": 409.5,
+                            "w": 252,
+                            "h": 291,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072332826",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 500,
+                            "y": 205,
+                            "w": 1000,
+                            "h": 46,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072333314",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 15790320,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 545180,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Home"
+                        },
+                        "renderer": "Link",
+                        "transform": {
+                            "x": 329,
+                            "y": 205,
+                            "w": 54,
+                            "h": 30,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072333319",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 15790320,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 545180,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Case Studies"
+                        },
+                        "renderer": "Link",
+                        "transform": {
+                            "x": 428,
+                            "y": 205,
+                            "w": 106,
+                            "h": 30,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072333326",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 15790320,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 545180,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Cybersecurity"
+                        },
+                        "renderer": "Link",
+                        "transform": {
+                            "x": 556,
+                            "y": 205,
+                            "w": 112,
+                            "h": 30,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072333333",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 15790320,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 545180,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Reflection"
+                        },
+                        "renderer": "Link",
+                        "transform": {
+                            "x": 673,
+                            "y": 205,
+                            "w": 84,
+                            "h": 30,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072333663",
+                        "appearance": {
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 2434341,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Click to reveal image of me!"
+                        },
+                        "renderer": "Paragraph",
+                        "transform": {
+                            "x": 821,
+                            "y": 577.5,
+                            "w": 252,
+                            "h": 27,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072333877",
+                        "appearance": {
+                            "ARROW_COLOR": 12434877,
+                            "FOREGROUND_COLOR": 15790320,
+                            "BACKGROUND_COLOR": 2434341,
+                            "STROKE_COLOR": 15790320,
+                            "STROKE_THICKNESS": 2,
+                            "TEXT_DISABLED": true,
+                            "BAR_COLOR": 12434877,
+                            "BAR_POSITION": 0,
+                            "BAR_SIZE": 50
+                        },
+                        "renderer": "VerticalScrollbar",
+                        "transform": {
+                            "x": 990,
+                            "y": 500,
+                            "w": 20,
+                            "h": 1000,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718072334666",
+                        "appearance": {
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 2434341,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Black box that will fade into an image of me when mouse hovers over (using CSS transitions)"
+                        },
+                        "renderer": "Paragraph",
+                        "transform": {
+                            "x": 815,
+                            "y": 361,
+                            "w": 200,
+                            "h": 140,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    }
+                ],
+                "rootIds": [
+                    "1718072331739",
+                    "1718072331989",
+                    "1718072332284",
+                    "1718072332826",
+                    "1718072333314",
+                    "1718072333319",
+                    "1718072333326",
+                    "1718072333333",
+                    "1718072333663",
+                    "1718072333877",
+                    "1718072334666"
+                ]
+            }
+        ],
+        "diagramIds": [
+            "1718072331696"
+        ],
+        "id": "198b341e-4ad9-371c-70fa-88645c6e3ed3",
+        "size": {
+            "x": 1000,
+            "y": 1000
+        }
+    },
+    "actions": [
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718072980267,
+                "appearance": {
+                    "key": "BACKGROUND_COLOR",
+                    "value": "#ffffff"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718072334666"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718072987569,
+                "oldBounds": {
+                    "x": 815,
+                    "y": 361,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 821,
+                    "y": 334,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072334666"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718072995302,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Hover to reveal image of me!"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718072333663"
+                ]
+            }
+        },
+        {
+            "type": "items/addShape",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718073142112,
+                "id": "1718072334984",
+                "renderer": "Rectangle",
+                "position": {
+                    "x": 124,
+                    "y": 314.0800094604492
+                }
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718073146644,
+                "oldBounds": {
+                    "x": 174,
+                    "y": 344,
+                    "w": 100,
+                    "h": 60,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 111,
+                    "y": 294,
+                    "w": 100,
+                    "h": 60,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072334984"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718073148823,
+                "oldBounds": {
+                    "x": 111,
+                    "y": 294,
+                    "w": 100,
+                    "h": 60,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 336.5,
+                    "y": 414,
+                    "w": 551,
+                    "h": 300,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072334984"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718073159154,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "About me!"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718072334984"
+                ]
+            }
+        },
+        {
+            "type": "items/addShape",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074780058,
+                "id": "1718072335242",
+                "renderer": "Image",
+                "position": {
+                    "x": 54.39999694824219,
+                    "y": 776.960009765625
+                }
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074780832,
+                "oldBounds": {
+                    "x": 104,
+                    "y": 826,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 80,
+                    "y": 782,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335242"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074782312,
+                "oldBounds": {
+                    "x": 80,
+                    "y": 782,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 111,
+                    "y": 780,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335242"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074784488,
+                "oldBounds": {
+                    "x": 111,
+                    "y": 780,
+                    "w": 100,
+                    "h": 100,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 166.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335242"
+                ]
+            }
+        },
+        {
+            "type": "items/paste",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074784899,
+                "json": "{\"visuals\":[{\"id\":\"1718072335384\",\"appearance\":{\"FOREGROUND_COLOR\":16777215,\"STROKE_COLOR\":13224393,\"STROKE_THICKNESS\":1,\"TEXT_DISABLED\":true,\"ASPECT_RATIO\":true,\"URL\":\"\"},\"renderer\":\"Image\",\"transform\":{\"x\":166.5,\"y\":835,\"w\":211,\"h\":210,\"r\":0},\"type\":\"Shape\"}],\"groups\":[]}",
+                "offset": 50
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074788067,
+                "oldBounds": {
+                    "x": 216.5,
+                    "y": 885,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 407.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335384"
+                ]
+            }
+        },
+        {
+            "type": "items/paste",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074788474,
+                "json": "{\"visuals\":[{\"id\":\"1718072335474\",\"appearance\":{\"FOREGROUND_COLOR\":16777215,\"STROKE_COLOR\":13224393,\"STROKE_THICKNESS\":1,\"TEXT_DISABLED\":true,\"ASPECT_RATIO\":true,\"URL\":\"\"},\"renderer\":\"Image\",\"transform\":{\"x\":407.5,\"y\":835,\"w\":211,\"h\":210,\"r\":0},\"type\":\"Shape\"}],\"groups\":[]}",
+                "offset": 50
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074790436,
+                "oldBounds": {
+                    "x": 457.5,
+                    "y": 885,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 736.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335474"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074793138,
+                "oldBounds": {
+                    "x": 407.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 500.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335384"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074794965,
+                "oldBounds": {
+                    "x": 166.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 213.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335242"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074797896,
+                "oldBounds": {
+                    "x": 736.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 787.5,
+                    "y": 835,
+                    "w": 211,
+                    "h": 210,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335474"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074812883,
+                "oldBounds": {
+                    "x": 336.5,
+                    "y": 414,
+                    "w": 551,
+                    "h": 300,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 336.5,
+                    "y": 468.5,
+                    "w": 551,
+                    "h": 409,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072334984"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074816357,
+                "oldBounds": {
+                    "x": 821,
+                    "y": 409.5,
+                    "w": 252,
+                    "h": 291,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 799.5,
+                    "y": 464.5,
+                    "w": 295,
+                    "h": 401,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072332284"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074820125,
+                "oldBounds": {
+                    "x": 821,
+                    "y": 334,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 799,
+                    "y": 383,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072334666"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074823823,
+                "oldBounds": {
+                    "x": 821,
+                    "y": 577.5,
+                    "w": 252,
+                    "h": 27,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 799,
+                    "y": 572.5,
+                    "w": 252,
+                    "h": 27,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072333663"
+                ]
+            }
+        },
+        {
+            "type": "items/addShape",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074832540,
+                "id": "1718072335964",
+                "renderer": "Paragraph",
+                "position": {
+                    "x": 119.2,
+                    "y": 897.6
+                }
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074834849,
+                "oldBounds": {
+                    "x": 219,
+                    "y": 967,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 522,
+                    "y": 967,
+                    "w": 806,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335964"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074844505,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Images of my hobbies"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718072335964"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074849848,
+                "oldBounds": {
+                    "x": 522,
+                    "y": 967,
+                    "w": 806,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 816,
+                    "y": 1027,
+                    "w": 806,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335964"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074861606,
+                "oldBounds": {
+                    "x": 816,
+                    "y": 1027,
+                    "w": 806,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 816,
+                    "y": 970,
+                    "w": 806,
+                    "h": 26,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335964"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718072331696",
+                "timestamp": 1718074863645,
+                "oldBounds": {
+                    "x": 816,
+                    "y": 970,
+                    "w": 806,
+                    "h": 26,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 503,
+                    "y": 970,
+                    "w": 180,
+                    "h": 26,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718072335964"
+                ]
+            }
+        }
+    ]
+}

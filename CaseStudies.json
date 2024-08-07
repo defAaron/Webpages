@@ -1,0 +1,756 @@
+{
+    "initial": {
+        "diagrams": [
+            {
+                "id": "1718073758743",
+                "items": [
+                    {
+                        "id": "1718073758778",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 16777215,
+                            "TEXT_DISABLED": true
+                        },
+                        "renderer": "Browser",
+                        "transform": {
+                            "x": 500,
+                            "y": 660.5,
+                            "w": 1000,
+                            "h": 1179,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073759109",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Case Studies(Header)",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 500,
+                            "y": 127.5,
+                            "w": 1000,
+                            "h": 113,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073759294",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 16777215,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_DISABLED": true,
+                            "ASPECT_RATIO": true,
+                            "URL": ""
+                        },
+                        "renderer": "Image",
+                        "transform": {
+                            "x": 839.5,
+                            "y": 392.5,
+                            "w": 235,
+                            "h": 255,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073759643",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 16777215,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_DISABLED": true,
+                            "ASPECT_RATIO": true,
+                            "URL": ""
+                        },
+                        "renderer": "Image",
+                        "transform": {
+                            "x": 839.5,
+                            "y": 636.5,
+                            "w": 235,
+                            "h": 255,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073759729",
+                        "appearance": {
+                            "FOREGROUND_COLOR": 16777215,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_DISABLED": true,
+                            "ASPECT_RATIO": true,
+                            "URL": ""
+                        },
+                        "renderer": "Image",
+                        "transform": {
+                            "x": 839.5,
+                            "y": 909.5,
+                            "w": 235,
+                            "h": 255,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073759824",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 333.5,
+                            "y": 681,
+                            "w": 587,
+                            "h": 880,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073760156",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Rectangle",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 332,
+                            "y": 392.5,
+                            "w": 546,
+                            "h": 255,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073760366",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Rectangle",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 333,
+                            "y": 679.5,
+                            "w": 546,
+                            "h": 255,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    },
+                    {
+                        "id": "1718073760769",
+                        "appearance": {
+                            "BORDER_RADIUS": 0,
+                            "FOREGROUND_COLOR": 16777215,
+                            "FONT_SIZE": 16,
+                            "BACKGROUND_COLOR": 0,
+                            "STROKE_COLOR": 13224393,
+                            "STROKE_THICKNESS": 1,
+                            "TEXT_ALIGNMENT": "center",
+                            "TEXT": "Rectangle",
+                            "PADDING_HORIZONTAL2": 10,
+                            "PADDING_VERTICAL2": 10
+                        },
+                        "renderer": "Rectangle",
+                        "transform": {
+                            "x": 333,
+                            "y": 966.5,
+                            "w": 546,
+                            "h": 255,
+                            "r": 0
+                        },
+                        "type": "Shape"
+                    }
+                ],
+                "rootIds": [
+                    "1718073758778",
+                    "1718073759109",
+                    "1718073759294",
+                    "1718073759643",
+                    "1718073759729",
+                    "1718073759824",
+                    "1718073760156",
+                    "1718073760366",
+                    "1718073760769"
+                ]
+            }
+        ],
+        "diagramIds": [
+            "1718073758743"
+        ],
+        "id": "ce4b049f-89b5-a11c-5fa4-b49140f00db9",
+        "size": {
+            "x": 1000,
+            "y": 1250
+        }
+    },
+    "actions": [
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074601662,
+                "oldBounds": {
+                    "x": 839.5,
+                    "y": 909.5,
+                    "w": 235,
+                    "h": 255,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 832.5,
+                    "y": 966.5,
+                    "w": 235,
+                    "h": 255,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073759729"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074611101,
+                "oldBounds": {
+                    "x": 839.5,
+                    "y": 636.5,
+                    "w": 235,
+                    "h": 255,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 839.5,
+                    "y": 679.5,
+                    "w": 235,
+                    "h": 255,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073759643"
+                ]
+            }
+        },
+        {
+            "type": "items/align",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074617973,
+                "mode": "ALIGN_H_LEFT",
+                "itemIds": [
+                    "1718073759294",
+                    "1718073759643",
+                    "1718073759729"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074619782,
+                "oldBounds": {
+                    "x": 832.5,
+                    "y": 679.5,
+                    "w": 235,
+                    "h": 829,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 826.5,
+                    "y": 679.5,
+                    "w": 235,
+                    "h": 829,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073759294",
+                    "1718073759643",
+                    "1718073759729"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074625472,
+                "oldBounds": {
+                    "x": 333.5,
+                    "y": 681,
+                    "w": 587,
+                    "h": 880,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 351.5,
+                    "y": 681,
+                    "w": 623,
+                    "h": 880,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073760366",
+                    "1718073760769",
+                    "1718073760156",
+                    "1718073759824"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074631903,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Project 1"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718073760156"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074635395,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Project 2"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718073760366"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074639369,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Project 3"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718073760769"
+                ]
+            }
+        },
+        {
+            "type": "items/addShape",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074671364,
+                "id": "1718073761369",
+                "renderer": "Rectangle",
+                "position": {
+                    "x": 743,
+                    "y": 283.200008392334
+                }
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074674721,
+                "oldBounds": {
+                    "x": 793,
+                    "y": 313,
+                    "w": 100,
+                    "h": 60,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 747,
+                    "y": 271,
+                    "w": 100,
+                    "h": 60,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074680827,
+                "oldBounds": {
+                    "x": 747,
+                    "y": 271,
+                    "w": 100,
+                    "h": 60,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 838,
+                    "y": 681,
+                    "w": 282,
+                    "h": 880,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/order",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074686436,
+                "mode": "SEND_BACKWARDS",
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/order",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074687137,
+                "mode": "SEND_BACKWARDS",
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/order",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074687490,
+                "mode": "SEND_BACKWARDS",
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/order",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074689852,
+                "mode": "SEND_TO_BACK",
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074692105,
+                "oldBounds": {
+                    "x": 838,
+                    "y": 681,
+                    "w": 282,
+                    "h": 880,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 840,
+                    "y": 679,
+                    "w": 282,
+                    "h": 880,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074694621,
+                "oldBounds": {
+                    "x": 840,
+                    "y": 679,
+                    "w": 282,
+                    "h": 880,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 826,
+                    "y": 686,
+                    "w": 282,
+                    "h": 880,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/order",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074699943,
+                "mode": "BRING_FORWARDS",
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074705222,
+                "oldBounds": {
+                    "x": 826,
+                    "y": 686,
+                    "w": 282,
+                    "h": 880,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 826,
+                    "y": 683.5,
+                    "w": 282,
+                    "h": 885,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074711490,
+                "oldBounds": {
+                    "x": 826,
+                    "y": 683.5,
+                    "w": 282,
+                    "h": 885,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 828,
+                    "y": 683.5,
+                    "w": 286,
+                    "h": 885,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074714014,
+                "oldBounds": {
+                    "x": 828,
+                    "y": 683.5,
+                    "w": 286,
+                    "h": 885,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 828,
+                    "y": 681,
+                    "w": 286,
+                    "h": 880,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761369"
+                ]
+            }
+        },
+        {
+            "type": "items/addShape",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074738070,
+                "id": "1718073761669",
+                "renderer": "Paragraph",
+                "position": {
+                    "x": 747,
+                    "y": 308
+                }
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074757954,
+                "appearance": {
+                    "key": "TEXT",
+                    "value": "Image will be enlarged when hovered over (CSS animation)"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718073761669"
+                ]
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074761263,
+                "oldBounds": {
+                    "x": 847,
+                    "y": 378,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 826,
+                    "y": 350,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761669"
+                ]
+            }
+        },
+        {
+            "type": "items/appearance",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074762251,
+                "appearance": {
+                    "key": "TEXT_ALIGNMENT",
+                    "value": "center"
+                },
+                "force": false,
+                "itemIds": [
+                    "1718073761669"
+                ]
+            }
+        },
+        {
+            "type": "items/paste",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074762969,
+                "json": "{\"visuals\":[{\"id\":\"1718073761754\",\"appearance\":{\"FONT_SIZE\":16,\"BACKGROUND_COLOR\":2434341,\"TEXT_ALIGNMENT\":\"center\",\"TEXT\":\"Image will be enlarged when hovered over (CSS animation)\"},\"renderer\":\"Paragraph\",\"transform\":{\"x\":826,\"y\":350,\"w\":200,\"h\":140,\"r\":0},\"type\":\"Shape\"}],\"groups\":[]}",
+                "offset": 50
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074764853,
+                "oldBounds": {
+                    "x": 876,
+                    "y": 400,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 828,
+                    "y": 679,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761754"
+                ]
+            }
+        },
+        {
+            "type": "items/paste",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074765662,
+                "json": "{\"visuals\":[{\"id\":\"1718073761816\",\"appearance\":{\"FONT_SIZE\":16,\"BACKGROUND_COLOR\":2434341,\"TEXT_ALIGNMENT\":\"center\",\"TEXT\":\"Image will be enlarged when hovered over (CSS animation)\"},\"renderer\":\"Paragraph\",\"transform\":{\"x\":826,\"y\":350,\"w\":200,\"h\":140,\"r\":0},\"type\":\"Shape\"}],\"groups\":[]}",
+                "offset": 100
+            }
+        },
+        {
+            "type": "items/transform",
+            "payload": {
+                "diagramId": "1718073758743",
+                "timestamp": 1718074768039,
+                "oldBounds": {
+                    "x": 926,
+                    "y": 450,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "newBounds": {
+                    "x": 826,
+                    "y": 966,
+                    "w": 200,
+                    "h": 140,
+                    "r": 0
+                },
+                "itemIds": [
+                    "1718073761816"
+                ]
+            }
+        }
+    ]
+}
